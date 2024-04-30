@@ -1,21 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB-115 Final Project</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
+<img src="meal-plan-image.jpg" alt="Build Your Meal Plan" class="header-image">
+<style>
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+    }
+
+    /* Header Styles */
+    header {
+        background-color: #270000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .banner h1 {
+        margin-top: 0;
+    }
+
+    /* Main Content Styles */
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #303030;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #250000;
+    }
+
+    /* Image Styles */
+    .header-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+</style>
+ <!-- Body it self -->
 <body>
     <header>
         <div class="banner">
             <h1>Perfectly Portioned Fitness</h1>
-            <p>Name: [Your Name]</p>
+            <p>Hamza Gulbahari</p>
             <p>Course: WEB-115</p>
-            <p>Section: [Your Section Number]</p>
             <h2>Build Your Meal Plan</h2>
         </div>
     </header>
+    <!-- Main -->
     <main>
         <form id="mealPlanForm">
             <label for="name">Name:</label>
@@ -47,6 +117,8 @@
             <button type="button" onclick="clearForm()">Clear Planner</button>
         </form>
     </main>
+    <!-- Jave Script -->
     <script src="projectJS.js"></script>
 </body>
 </html>
+

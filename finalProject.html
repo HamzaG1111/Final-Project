@@ -3,7 +3,19 @@
 <head>
     <title>WEB-115 Final Project</title>
 </head>
-<img src="meal-plan-image.jpg" alt="Build Your Meal Plan" class="header-image">
+</style>
+<!-- Body it self -->
+<body>
+   <header>
+    <img src="meal-plan-image.png" alt="Build Your Meal Plan" class="header-image">
+       <div class="banner">
+           <h1>Perfectly Portioned Fitness</h1>
+           <p>Hamza Gulbahari</p>
+           <p>Course: WEB-115</p> 
+           <h2>Build Your Meal Plan</h2>
+        
+       </div>
+   </header>
 <style>
     /* General Styles */
     body {
@@ -13,6 +25,19 @@
         background-color: #f5f5f5;
     }
 
+    .banner {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Set text color for better contrast */
+    text-align: center;
+    }
     /* Header Styles */
     header {
         background-color: #270000;
@@ -75,16 +100,6 @@
         margin-bottom: 20px;
     }
 </style>
- <!-- Body it self -->
-<body>
-    <header>
-        <div class="banner">
-            <h1>Perfectly Portioned Fitness</h1>
-            <p>Hamza Gulbahari</p>
-            <p>Course: WEB-115</p>
-            <h2>Build Your Meal Plan</h2>
-        </div>
-    </header>
     <!-- Main -->
     <main>
         <form id="mealPlanForm">
@@ -121,4 +136,3 @@
     <script src="projectJS.js"></script>
 </body>
 </html>
-
